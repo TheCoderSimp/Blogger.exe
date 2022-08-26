@@ -4,31 +4,43 @@ title: Blogger.exe
 theme: PaperMod
 
 params:
-    profileMode:
-        enabled: true
-        title: "Hello There, General Kenobi!"
-        subtitle: "Welcome to my blog! Hope you enjoy your stay here 💖"
-        imageUrl: img/logo.png
-        imageWidth: 200
-        imageHeight: 200
-        imageTitle: my image
-        buttons:
-         - name: Blogs
-           url: blogs
-         - name: Souce Code
-           url: https://github.com/TheCoderSimp/Blogger.exe  
+  author: Me
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  profileMode:
+      enabled: true
+      title: "Hello There, General Kenobi!"
+      subtitle: "Welcome to my blog! Hope you enjoy your stay here 💖"
+      imageUrl: img/logo.png
+      imageWidth: 200
+      imageHeight: 200
+      imageTitle: my image
+      buttons:
+       - name: Blogs
+         url: blogs
+       - name: Source Code
+         url: https://github.com/TheCoderSimp/Blogger.exe  
         
-    socialIcons:
-        - name: instagram
-          url: https://instagram.com/jagrit.weeb
-        - name: github
-          url: https://github.com/thecodersimp
-        - name: twitter
-          url: https://twitter.com/thegamingsimpm1  
-        - name: twitch
-          url: https://twitch.tv/thegamersimp    
-        - name: youtube
-          url: https://www.youtube.com/channel/UCWWCpQfRnRkM5GINi5tqQbA
+  socialIcons:
+      - name: instagram
+        url: https://instagram.com/jagrit.weeb
+      - name: github
+        url: https://github.com/thecodersimp
+      - name: twitter
+        url: https://twitter.com/thegamingsimpm1  
+      - name: twitch
+        url: https://twitch.tv/thegamersimp    
+      - name: youtube
+        url: https://www.youtube.com/channel/UCWWCpQfRnRkM5GINi5tqQbA
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
 
 menu:
     main:
