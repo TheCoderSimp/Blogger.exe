@@ -1,7 +1,9 @@
 ---
 title: "Deployed 😤😤"
 date: 2022-08-26T14:43:20+05:30
-draft: false
+draft: false    
+tags: ["site", "blog"]
+author: "Me"
 ---
 
 # DEPLOYED THE SITE GG!!! 
