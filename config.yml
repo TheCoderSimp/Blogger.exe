@@ -1,0 +1,44 @@
+baseURL: ""
+languageCode: en-us
+title: My Blog
+theme: PaperMod
+
+params:
+
+  homeInfoParams:
+    Title: "Hello there! General Kenobi"
+    Content: "Welcome to my blog. You'll find all sorts of cool stuff here!"
+  socialIcons:
+    - name: instagram
+      url: 'https://instagram.com/jagrit.weeb'
+    - name: github
+      url: https://github.com/thecodersimp
+    - name: twitter
+      url: https://twitter.com/thegamingsimpm1  
+    - name: twitch
+      url: https://twitch.tv/thegamersimp 
+
+  cover:
+    linkFullImages: true
+
+  ShowBreadCrumbs: true
+
+  ShowReadingTime: true
+
+  ShowShareButtons: true
+
+  ShowPostNavLinks: true
+menu:
+  main:
+    - identifiers: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifiers: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifiers: archives
+      name: Archives
+      url: /archives/
+      weight: 30 
