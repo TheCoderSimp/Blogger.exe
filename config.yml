@@ -1,44 +1,38 @@
-baseURL: ""
+baseURL: "https://jagritblogs.netlify.app"
 languageCode: en-us
-title: My Blog
+title: Blogger.exe
 theme: PaperMod
 
 params:
+    profileMode:
+        enabled: true
+        title: "Hello There, General Kenobi!"
+        subtitle: "Welcome to my blog! Hope you enjoy your stay here 💖"
+        imageUrl: img/logo.png
+        imageWidth: 200
+        imageHeight: 200
+        imageTitle: my image
+        buttons:
+         - name: Blogs
+           url: blogs
+         - name: Souce Code
+           url: https://github.com/TheCoderSimp/Blogger.exe  
+        
+    socialIcons:
+        - name: instagram
+          url: https://instagram.com/jagrit.weeb
+        - name: github
+          url: https://github.com/thecodersimp
+        - name: twitter
+          url: https://twitter.com/thegamingsimpm1  
+        - name: twitch
+          url: https://twitch.tv/thegamersimp    
+        - name: youtube
+          url: https://www.youtube.com/channel/UCWWCpQfRnRkM5GINi5tqQbA
 
-  homeInfoParams:
-    Title: "Hello there! General Kenobi"
-    Content: "Welcome to my blog. You'll find all sorts of cool stuff here!"
-  socialIcons:
-    - name: instagram
-      url: 'https://instagram.com/jagrit.weeb'
-    - name: github
-      url: https://github.com/thecodersimp
-    - name: twitter
-      url: https://twitter.com/thegamingsimpm1  
-    - name: twitch
-      url: https://twitch.tv/thegamersimp 
-
-  cover:
-    linkFullImages: true
-
-  ShowBreadCrumbs: true
-
-  ShowReadingTime: true
-
-  ShowShareButtons: true
-
-  ShowPostNavLinks: true
 menu:
-  main:
-    - identifiers: categories
-      name: Categories
-      url: /categories/
-      weight: 10
-    - identifiers: tags
-      name: Tags
-      url: /tags/
-      weight: 20
-    - identifiers: archives
-      name: Archives
-      url: /archives/
-      weight: 30 
+    main:
+        - identifier: example
+          name: Soruce Code
+          url: https://github.com/TheCoderSimp/Blogger.exe
+          weight: 30
