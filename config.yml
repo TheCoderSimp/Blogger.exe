@@ -7,10 +7,16 @@ params:
   author: Me
   defaultTheme: auto
   disableThemeToggle: false
-
+  ShowReadingTime: true
   ShowShareButtons: true
   ShareButtons: ["twitter","whatsapp","reddit","linkedin"]
+  ShowBreadcrumbs: true
+  ShowPostName: true
+  hideSummary: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
   
+
   profileMode:
       enabled: true
       title: "Hello There, General Kenobi!"
