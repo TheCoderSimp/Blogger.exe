@@ -8,6 +8,9 @@ params:
   defaultTheme: auto
   disableThemeToggle: false
 
+  ShowShareButtons: true
+  ShareButtons: ["twitter","whatsapp","reddit","linkedin"]
+  
   profileMode:
       enabled: true
       title: "Hello There, General Kenobi!"
@@ -50,13 +53,14 @@ outputs:
 
 menu:
     main:
-        - identifier: example
+        - identifier: source_code
           name: Soruce Code
           url: https://github.com/TheCoderSimp/Blogger.exe
           weight: 30
         - identifier: search
           name: Search
           url: search
+          weight: 10
         - identifier: categories
           name: Categories
           url: /categories/
